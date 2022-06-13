@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_18</title>
+</head>
+<body>
+    Escribe un programa que convierta los segundos a horas, minutos y segundos. Por
+    ejemplo si introduce 4000 segundos que muestre el mensaje:
+    1 horas, 6 minutos, 40 segundos
+
+    <script>
+     let numero = parseInt(window.prompt("introduce un numero de segundos:"))
+
+     let horas =  parseInt(numero / 3600)
+     let minutos =  parseInt((numero & 3600)/ 60)
+     let segundos =  parseInt(((numero & 3600)&60))
+
+     console.log(`${numero}de segundos son: ${horas}, ${minutos} y ${segundos}`)      
+    </script>
+    
+ </body>    
+    

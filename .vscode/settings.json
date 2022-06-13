@@ -1,0 +1,18 @@
+{
+    "explorer.openEditors.sortOrder": "editorOrder",
+    "editor.cursorStyle": "line-thin",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "One Dark Pro Mix",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "workbench.colorCustomizations": {
+    
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.decorations.colors": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}
