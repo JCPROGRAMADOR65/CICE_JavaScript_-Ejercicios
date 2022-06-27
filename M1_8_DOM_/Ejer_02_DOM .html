@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejerc_02_DOM</title>
+</head>
+<body>  
+/*2.  Crea una variable con tu nombre. Después haz un párrafo que diga “Hola, me llamo
+(tu nombre)”.
+*/
+<div>
+ 
+<script>
+let nombre = `Juan Carlos`
+let contenido = document.createElement('p')
+contenido.innerText = `Hola, me llamo ${nombre}`
+
+document.body.appendChild(contenido)
+</script>    
+</body>
+</html>

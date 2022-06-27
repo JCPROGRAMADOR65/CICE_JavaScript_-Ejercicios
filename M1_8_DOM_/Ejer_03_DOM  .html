@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejerc_03_DOM</title>
+</head>
+<body>
+/* 3. Crea un programa que te pida un nombre y una edad. Si la edad es menor a 18 años
+mostrar en pantalla “Hola (nombre), eres menor de edad.”. Si es mayor mostrar en
+pantalla “Hola (nombre), eres mayor de edad.”. Hacedlo con if, switch y condicional
+ternario.
+*/   
+// se crean tres elementos en el DOM //
+<div id ="if"></div>
+<div id ="switch"></div>
+<div id ="ternario"></div>
+
+
+<script>
+let nombre = window.prompt("Introduce tu nombbre:")
+let edad = parseInt(window.prompt("Introduce tu nombbre:"))
+
+//crear la logica//
+if(edad >= 18) {
+    document.getElementById("if").innerHTML = `<P>Hola ${nombre} eres mayor de edad</P>`  //innerHTML enseña lo que queremos en elemento if//
+}else{
+    document.getElementById("if").innerHTML = `<P>Hola ${nombre} eres menor de edad</P>`   
+}
+
+// el metodo mas adecuado y limpio es un ternario por que tenemos dos opciones, caso de mas de dos ouput, tenemos que encadenar ternarios,y seria mas engorroso de leer, en tal caso seria mejor un if, if else, else.//
+edad>= 18
+? document.getElementById("ternario").innerHTML = `<P>Hola ${nombre} eres menor de edad</P>`  
+: document.getElementById("if").innerHTML = `<P>Hola ${nombre} eres mayor de edad</P>`   
+
+// en este caso no es recomendable un switch, funciona pero es mas extento.//
+
+
+</script>
+
+</body>
+</html>
